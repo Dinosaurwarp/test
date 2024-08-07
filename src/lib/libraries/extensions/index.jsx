@@ -179,6 +179,14 @@ export default [
         featured: true
     },
     {
+        name: "Odd Messages",
+        extensionId: './extensions-code/oddmsg.js',
+        iconURL: customExtensionIcon,
+        description: "For logging and variable utilization.",
+        featured: true,
+        collaborator: 'silvxrcat'
+    },
+    {
         name: 'micro:bit',
         extensionId: 'microbit',
         collaborator: 'micro:bit',
