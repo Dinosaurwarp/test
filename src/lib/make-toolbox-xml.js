@@ -516,6 +516,7 @@ const sensing = function (isInitialSetup, isStage, targetId, colors) {
             ${blockSeparator}
         `}
         ${blockSeparator}
+        <block id="loud" type="sensing_loud"/>
         <block id="loudness" type="sensing_loudness"/>
         ${blockSeparator}
         <block id="timer" type="sensing_timer"/>
